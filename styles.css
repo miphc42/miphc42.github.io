@@ -8,8 +8,19 @@ body{
     
 }
 h1{
+    animation: type 3s steps(20);
+    overflow: hidden;
+    white-space: nowrap;
     color: white;
     margin-left: 42%;
+}
+@keyframes  type{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 20ch;
+    }
 }
 #profile {
     margin-left: 15%;
@@ -30,7 +41,6 @@ h1{
     padding: 10px;
   }
   
-  
-  .github { grid-area: 1 / 1 / 2 / 2; }
-  .linkedin { grid-area: 1 / 2 / 2 / 3; }
-  .resume { grid-area: 1 / 3 / 2 / 4; }
+.github { grid-area: 1 / 1 / 2 / 2; }
+.linkedin { grid-area: 1 / 2 / 2 / 3; }
+.resume { grid-area: 1 / 3 / 2 / 4; }
