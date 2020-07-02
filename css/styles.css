@@ -67,18 +67,18 @@ p{
     width: 30vw;
 }
 .Row {
-    margin: 0 auto;
-    display: table;
-    width: 40%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-    border-spacing: 10%; /*Optional*/
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    justify-content: center;
 }
 .Column {
-    margin: 0 auto;
-    padding: 2vw 3.5vw;
-    display: table-cell;
-    background-color: white; /*Optional*/
-}
+    width: 100px;
+    margin: 10px 40px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 30px;
+  }
 div #github {
     background-image: url(../assets/github.png);
 }
