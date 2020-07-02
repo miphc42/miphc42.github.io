@@ -80,7 +80,9 @@ p{
     display: table-cell;
     background-color: white; /*Optional*/
 }
-
-#github :hover{
+div #github {
+    background-image: url(../assets/github.png);
+}
+div #github :hover{
     background-image: url(../assets/linkedin.png);
 }
