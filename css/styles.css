@@ -73,11 +73,11 @@ p{
     justify-content: center;
 }
 .Column {
-    width: 100px;
-    margin: 10px 40px;
+    width: 4vw;
+    margin: 2vw 3vw;
     text-align: center;
-    line-height: 34px;
-    font-size: 30px;
+    line-height: 2vw;
+    font-size: 15%;
   }
 div #github {
     background-image: url(../assets/github.png);
