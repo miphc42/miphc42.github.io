@@ -46,3 +46,27 @@ img{
     /* line-height: 1.5vw; */
     font-size: 100%;
 }
+
+@media screen and (max-width: 600px)  {
+    .Row {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin-right: 5%;
+    }
+    .Column{
+        
+        /* align-items: center;
+        align-content: center; */
+        margin: 4vw 3vw;
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 80%;
+        border-radius: 20px;
+        margin: auto;
+    }
+    
+    
+}   

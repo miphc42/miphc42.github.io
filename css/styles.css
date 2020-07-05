@@ -25,7 +25,7 @@ body{
 	}
 }
   
-@keyframes slidein {
+/* @keyframes slidein {
     from {
       margin-left: 100%;
       width: 300%; 
@@ -35,7 +35,7 @@ body{
       margin-left: 0%;
       width: 100%;
     }
-}
+} */
 
 h1{
     margin: 0 auto;
@@ -87,8 +87,6 @@ p{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    animation-duration: 2s;
-    animation-name: slidein;
 }
 .Column {
     width: 5%;
