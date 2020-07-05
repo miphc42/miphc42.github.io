@@ -24,6 +24,18 @@ body{
 		opacity: 1;
 	}
 }
+  
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
 
 h1{
     margin: 0 auto;
@@ -75,6 +87,8 @@ p{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    animation-duration: 2s;
+    animation-name: slidein;
 }
 .Column {
     width: 5%;
@@ -83,6 +97,7 @@ p{
     line-height: 1.5vw;
     font-size: 15%;
 }
+
 
 @media screen and (max-width: 600px)  {
     h1{
