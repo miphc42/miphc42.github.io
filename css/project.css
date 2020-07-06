@@ -4,7 +4,7 @@
   } */
 
 body{
-    background-color: #778899;
+    background-color:white;
     
 }
 .fade-in {
@@ -27,8 +27,7 @@ body{
 h1{
     text-align: center;
     font-family: Helvetica, sans-serif;
-    color: white;
-    
+    color: black;
 }
 img{
     border-radius: 20px;
